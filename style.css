@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #17324d;
+    background: #ffffff;
+}
+
+header {
+    background: #0b2947;
+    color: white;
+    padding: 15px 6%;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    margin: 5px 0 0;
+    color: #d9b44a;
+}
+
+section {
+    padding: 60px 8%;
+}
+
+.hero {
+    background: linear-gradient(135deg, #0b2947, #1d5379);
+    color: white;
+    text-align: center;
+    padding: 100px 8%;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 19px;
+    max-width: 650px;
+    margin: auto;
+}
+
+.services {
+    background: #f4f7fa;
+    text-align: center;
+}
+
+.services h2,
+.about h2,
+.contact h2 {
+    font-size: 35px;
+    color: #0b2947;
+}
+
+.service-box {
+    display: inline-block;
+    vertical-align: top;
+    width: 22%;
+    min-width: 220px;
+    margin: 10px;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.service-box h3 {
+    color: #b98b22;
+}
+
+.about {
+    text-align: center;
+}
+
+.about p {
+    max-width: 750px;
+    margin: auto;
+    line-height: 1.8;
+    color: #596b7d;
+}
+
+.contact {
+    background: #f4f7fa;
+    text-align: center;
+}
+
+.contact a {
+    color: #0b2947;
+    font-weight: bold;
+}
+
+footer {
+    background: #061c31;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 25px;
+    background: #d0a32c;
+    color: #10263d;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .service-box {
+        width: 90%;
+    }
+
+    section {
+        padding: 45px 6%;
+    }
+}
